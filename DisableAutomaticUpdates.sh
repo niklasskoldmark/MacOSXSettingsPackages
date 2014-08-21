@@ -1,6 +1,5 @@
 #!/bin/bash
 #Script to disable automatic updates in OS X 10.9(System Preferences/App Store)
-
 #Uncheck "Automatically check for updates"
 defaults write /Library/Preferences/com.apple.SoftwareUpdate AutomaticCheckEnabled -bool false
 #Uncheck "Download newly available updates in the background"
